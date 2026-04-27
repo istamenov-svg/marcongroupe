@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demand and Conversion Engineering — Marcon Groupe</title>
+  <meta name="description" content="Demand generation, content, paid media, SEO, lifecycle, intake, conversion. The execution layer, run as engineering.">
+  <link rel="canonical" href="https://marcongrp.com/services/front-office/demand-and-conversion.html">
+
+  <meta property="og:title" content="Demand and Conversion Engineering — Marcon Groupe">
+  <meta property="og:description" content="Demand generation, content, paid media, SEO, lifecycle, intake, conversion. The execution layer, run as engineering.">
+  <meta property="og:url" content="https://marcongrp.com/services/front-office/demand-and-conversion.html">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="brand">Marcon Groupe</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">≡</button>
+    <nav class="nav" aria-label="Primary">
+      <a href="/services/commercial-diligence.html" class="nav-link">Diligence</a>
+      <a href="/services/front-office/" class="nav-link">Build</a>
+      <a href="/services/fractional-cmo-operating-partner.html" class="nav-link">Operate</a>
+      <a href="/contact.html" class="nav-link">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container-narrow">
+      <p class="hero-eyebrow reveal reveal-1">Build · Front Office</p>
+      <h1 class="reveal reveal-2">Demand and Conversion Engineering</h1>
+      <p class="reveal reveal-3">Demand generation, content, paid media, SEO, lifecycle, intake, conversion. The execution layer, run as engineering rather than as marketing creative.</p>
+      <a href="/contact.html" class="button reveal reveal-4">Start a conversation <span class="button-arrow">→</span></a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container-narrow">
+      <div class="service-content">
+        <h2>What it is</h2>
+        <p>The execution layer of the front office — the part that actually runs campaigns, fills the pipeline, and converts leads to customers — is most often staffed and managed as creative work. Briefs, agencies, campaigns, dashboards. The output is uneven, the cost is opaque, and the connection between activity and revenue is established after the fact, if at all.</p>
+        <p>Demand and Conversion Engineering is the work of running execution as engineering. The deliverable is an execution layer where every channel has a stated economic logic, every campaign has a defined hypothesis and measurement plan, every conversion path is instrumented, and every dollar of spend has a defensible read on what it produced.</p>
+
+        <h2>What's in scope</h2>
+        <p>Demand generation strategy and operations — channel mix, budget allocation, campaign architecture, vendor management. Content systems — production model, governance, publishing cadence. Paid media — search, social, display, programmatic, with a defined economic basis for each. SEO — technical, content, and authority work, integrated with the broader execution plan rather than run as a separate discipline. Lifecycle marketing — email, SMS, retention, win-back. Intake operations — the human and automated layer that converts inbound interest into qualified opportunity. Conversion optimization — the experimental layer that improves performance against defensible measurement.</p>
+        <p>The output is a running execution layer — staffed appropriately, instrumented, governed, and producing defensible numbers — with the documentation and operating cadence that makes it durable beyond the engagement.</p>
+
+        <h2>What it's not</h2>
+        <p>We are not a marketing agency. We do not staff long-running creative production, run paid media accounts as outsourced operators, or hold permanent agency relationships. The work is to build the execution layer the client operates — usually with a combination of internal team, retained agencies the client owns, and specialists added where the client cannot economically staff in-house.</p>
+        <p>The work is also not channel-specific. We do not engage for "SEO" or "paid social" as standalone scopes. The execution layer is built and governed as a whole, with channel-level work sized to its economic role inside the broader operation.</p>
+
+        <h2>When companies engage us for demand and conversion engineering</h2>
+        <p>Three patterns are common.</p>
+        <h4>The execution layer is producing volume but not defensible economics.</h4>
+        <p>Campaigns run, leads come in, customers convert — but no one can produce a clean read on which channels are paying for themselves and which are subsidized by the others.</p>
+        <h4>The agency-and-vendor structure has accumulated past coherence.</h4>
+        <p>Multiple agencies cover overlapping scopes. Briefs flow in different directions. The client is paying for fragmentation. The work is to consolidate, govern, and run the layer as one execution function rather than several.</p>
+        <h4>The function needs to scale faster than headcount can grow.</h4>
+        <p>The current execution layer works at the current scale, but the company's growth plan requires the layer to operate at three or five times its current throughput within a defined window. The work is to redesign for that scale, not just expand the current model.</p>
+
+        <h2>Engagement shape</h2>
+        <p>Demand and conversion engagements typically run two to four quarters depending on the scope of the execution layer being rebuilt. The first quarter establishes governance and measurement. Subsequent quarters cover channel-by-channel rebuilds and the operating cadence that makes the layer durable.</p>
+        <p>The staffing model is lean — one senior operator leading the engagement, with specialists added for specific channel rebuilds when scope demands it. The work is AI-native: campaign architecture, content production, paid media optimization, attribution analysis, and conversion experimentation are accelerated by AI across the entire engagement.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-cta">
+    <div class="container-narrow">
+      <h3 class="eyebrow" style="color: #b8c5d6;">Talk to us</h3>
+      <h2>Rebuilding the execution layer?</h2>
+      <p>A short conversation usually clarifies the right scope and starting point.</p>
+      <a href="/contact.html" class="button">Start a conversation <span class="button-arrow">→</span></a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand-block">
+        <a href="/" class="brand">Marcon Groupe</a>
+        <p>Fort Lauderdale, FL</p>
+        <p><a href="mailto:info@marcongrp.com">info@marcongrp.com</a></p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/services/commercial-diligence.html" class="footer-link">Diligence</a>
+        <a href="/services/front-office/" class="footer-link">Build</a>
+        <a href="/services/fractional-cmo-operating-partner.html" class="footer-link">Operate</a>
+        <a href="/contact.html" class="footer-link">Contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      © 2026 Marcon Groupe LLC. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/site.js"></script>
+</body>
+</html>
