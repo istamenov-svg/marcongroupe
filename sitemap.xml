@@ -1,115 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fractional CMO and Operating Partner — Marcon Groupe</title>
-  <meta name="description" content="Embedded senior commercial leadership for portfolio companies and operators. Accountable for outcomes, not just advice.">
-  <link rel="canonical" href="https://marcongrp.com/services/fractional-cmo-operating-partner.html">
-
-  <meta property="og:title" content="Fractional CMO and Operating Partner — Marcon Groupe">
-  <meta property="og:description" content="Embedded senior commercial leadership for portfolio companies and operators. Accountable for outcomes, not just advice.">
-  <meta property="og:url" content="https://marcongrp.com/services/fractional-cmo-operating-partner.html">
-  <meta property="og:type" content="website">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="/assets/css/styles.css">
-</head>
-<body>
-
-<header class="site-header">
-  <div class="container">
-    <a href="/" class="brand">Marcon Groupe</a>
-    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">≡</button>
-    <nav class="nav" aria-label="Primary">
-      <a href="/services/commercial-diligence.html" class="nav-link">Diligence</a>
-      <a href="/services/front-office/" class="nav-link">Build</a>
-      <a href="/services/fractional-cmo-operating-partner.html" class="nav-link">Operate</a>
-      <a href="/contact.html" class="nav-link">Contact</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-
-  <section class="page-hero">
-    <div class="container-narrow">
-      <p class="hero-eyebrow reveal reveal-1">Operate</p>
-      <h1 class="reveal reveal-2">Fractional CMO and Operating Partner</h1>
-      <p class="reveal reveal-3">Embedded senior commercial leadership for portfolio companies and operators. Accountable for outcomes, not just advice.</p>
-      <a href="/contact.html" class="button reveal reveal-4">Start a conversation <span class="button-arrow">→</span></a>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container-narrow">
-      <div class="service-content">
-        <h2>What it is</h2>
-        <p>Fractional and operating partner engagements are the shape used when a company needs senior commercial leadership inside the function — running it, accountable for it, owning the outcomes — but does not need or cannot economically support a full-time hire in the role.</p>
-        <p>The engagement is structurally different from the build engagements. Build engagements deliver infrastructure and hand it off. Fractional and operating partner engagements run the function, on a defined scope of time and accountability, until the company is ready to install permanent leadership or until the engagement's purpose is complete.</p>
-
-        <h2>What's in scope</h2>
-        <h4>Fractional CMO.</h4>
-        <p>Embedded leadership of the marketing function inside an operating company — strategy, team, technology, execution, governance. Typically two to four days per week of engaged capacity, with full ownership of the function during that capacity.</p>
-        <h4>Operating Partner.</h4>
-        <p>Portfolio-level engagement for sponsors. Sits inside the sponsor's investment team or alongside it, with defined accountability across one or several portfolio companies. Combines diagnostic, build, and leadership work, sized to the value-creation plan and the deal's hold period.</p>
-        <h4>Interim leadership.</h4>
-        <p>Defined-term embedded leadership during a transition — between CMOs, after a departure, during a restructure, before or during a sale. The scope is to stabilize the function, deliver against the plan, and prepare the function for permanent leadership.</p>
-
-        <h2>What it's not</h2>
-        <p>We are not a fractional services provider operating across many concurrent engagements at low capacity per client. The model is the opposite — a small number of concurrent engagements, with meaningful capacity committed to each.</p>
-        <p>It is also not an advisory engagement under a fractional title. Fractional and operating partner engagements include execution accountability — running the team, owning the numbers, delivering the work. Engagements that are advisory-only are scoped as advisory engagements, not as fractional leadership.</p>
-
-        <h2>When companies engage us for fractional or operating partner work</h2>
-        <p>Three patterns are common.</p>
-        <h4>The portfolio company has a value-creation plan that requires senior commercial leadership.</h4>
-        <p>The plan calls for transformation across marketing and revenue operations, the sponsor needs an accountable operator inside the company, and the timeline does not permit a full executive search. The operating partner engagement covers the work directly, often while the permanent CMO search runs in parallel.</p>
-        <h4>The operator-led company is between CMOs.</h4>
-        <p>The previous CMO has departed. The company cannot run the function without senior leadership, and the executive search will take six to twelve months. The fractional engagement runs the function during the search and frequently leaves a stronger function behind for the permanent hire to inherit.</p>
-        <h4>The founder is replacing themselves in the commercial function.</h4>
-        <p>The founder has been doing the work and is preparing to step out. The fractional engagement bridges the transition — runs the function during the move, builds the structure the permanent team will need, and leaves the company ready to operate without the founder in the seat.</p>
-
-        <h2>Engagement shape</h2>
-        <p>Fractional and operating partner engagements are typically structured as monthly retainers with defined scopes of time and accountability. Most engagements run two to four days per week of engaged capacity, with the scope renewable on a quarterly basis.</p>
-        <p>The staffing model is lean by definition. The senior operator runs the engagement directly. Specialist capacity is brought in for specific workstreams when scope demands it. The work is AI-native, which is what makes fractional capacity at this engagement size economically viable for the client.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="footer-cta">
-    <div class="container-narrow">
-      <h3 class="eyebrow" style="color: #b8c5d6;">Talk to us</h3>
-      <h2>Considering fractional or operating partner capacity?</h2>
-      <p>A short conversation usually clarifies whether the engagement shape is right and what the scope should be.</p>
-      <a href="/contact.html" class="button">Start a conversation <span class="button-arrow">→</span></a>
-    </div>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-top">
-      <div class="footer-brand-block">
-        <a href="/" class="brand">Marcon Groupe</a>
-        <p>Fort Lauderdale, FL</p>
-        <p><a href="mailto:info@marcongrp.com">info@marcongrp.com</a></p>
-      </div>
-      <nav class="footer-nav" aria-label="Footer">
-        <a href="/services/commercial-diligence.html" class="footer-link">Diligence</a>
-        <a href="/services/front-office/" class="footer-link">Build</a>
-        <a href="/services/fractional-cmo-operating-partner.html" class="footer-link">Operate</a>
-        <a href="/contact.html" class="footer-link">Contact</a>
-      </nav>
-    </div>
-    <div class="footer-bottom">
-      © 2026 Marcon Groupe LLC. All rights reserved.
-    </div>
-  </div>
-</footer>
-
-<script src="/assets/js/site.js"></script>
-</body>
-</html>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://marcongrp.com/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://marcongrp.com/services/commercial-diligence.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://marcongrp.com/services/front-office/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://marcongrp.com/services/front-office/transformation.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marcongrp.com/services/front-office/diagnostic.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marcongrp.com/services/front-office/commercial-model-redesign.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marcongrp.com/services/front-office/team-and-accountability.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marcongrp.com/services/front-office/martech-and-data-rebuild.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marcongrp.com/services/front-office/demand-and-conversion.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marcongrp.com/services/front-office/customer-path-architecture.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marcongrp.com/services/front-office/agentic-operations.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://marcongrp.com/services/vendor-cost-engineering.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://marcongrp.com/services/fractional-cmo-operating-partner.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://marcongrp.com/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
