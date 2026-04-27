@@ -163,10 +163,20 @@ strong {
   color: #0f1a2b;
   text-decoration: none;
   letter-spacing: -0.01em;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.brand img {
+  display: block;
+  height: 40px;
+  width: auto;
 }
 
 .brand:hover {
   color: #1a3a5c;
+  opacity: 0.85;
 }
 
 .nav {
@@ -660,9 +670,14 @@ strong {
 }
 
 .footer-brand-block .brand {
-  display: block;
-  margin-bottom: 0.75rem;
+  display: inline-block;
+  margin-bottom: 1rem;
   font-size: 1.375rem;
+}
+
+.footer-brand-block .brand img {
+  height: 80px;
+  width: auto;
 }
 
 .footer-brand-block p {
