@@ -321,32 +321,42 @@ strong {
 @media (max-width: 900px) {
   .hero-with-image,
   .page-hero-with-image {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 0;
-  }
-  .hero-with-image > .container,
-  .page-hero-with-image > .container,
-  .page-hero-with-image > .container-narrow {
-    order: 1;
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    padding: 5rem 0 4rem;
   }
   .hero-image {
-    order: 2;
-    position: relative;
-    width: calc(100% + 2.5rem);
-    margin: 2.5rem -1.25rem 0;
-    height: 240px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    margin: 0;
   }
   .hero-image img {
-    opacity: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.45;
   }
   .hero-image::after {
     background: linear-gradient(
       to bottom,
-      rgba(250, 250, 248, 0.5) 0%,
-      rgba(250, 250, 248, 0) 30%,
-      rgba(250, 250, 248, 0) 100%
+      rgba(250, 250, 248, 0.75) 0%,
+      rgba(250, 250, 248, 0.6) 35%,
+      rgba(250, 250, 248, 0.85) 100%
     );
+  }
+  .hero-with-image .hero-content,
+  .page-hero-with-image .container,
+  .page-hero-with-image .container-narrow {
+    position: relative;
+    z-index: 2;
   }
 }
 
@@ -847,6 +857,65 @@ strong {
 .direct-contact a {
   font-weight: 500;
   color: #0f1a2b;
+}
+
+/* ---------- Breadcrumbs ---------- */
+
+.breadcrumbs {
+  background: #fafaf8;
+  border-bottom: 1px solid #e8e6e0;
+  padding: 1rem 0;
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 0.875rem;
+}
+
+.breadcrumbs ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.breadcrumbs li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+  content: '/';
+  color: #b8c5d6;
+  margin-left: 0.5rem;
+  font-weight: 300;
+}
+
+.breadcrumbs a {
+  color: #4a5568;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.breadcrumbs a:hover {
+  color: #0f1a2b;
+}
+
+.breadcrumbs li[aria-current="page"] {
+  color: #0f1a2b;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .breadcrumbs {
+    padding: 0.875rem 0;
+    font-size: 0.8125rem;
+  }
+  /* Truncate to last 2 levels on mobile to avoid wrapping */
+  .breadcrumbs li:not(:nth-last-child(-n+2)):not(:first-child) {
+    display: none;
+  }
 }
 
 /* ---------- Page hero variant ---------- */
