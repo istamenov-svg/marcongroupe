@@ -1,0 +1,13 @@
+{
+  "name": "Marcon Groupe",
+  "short_name": "Marcon",
+  "description": "Consulting outcomes without the consulting structure.",
+  "icons": [
+    { "src": "/assets/img/favicons/favicon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/img/favicons/favicon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#0f1a2b",
+  "background_color": "#fafaf8",
+  "display": "browser",
+  "start_url": "/"
+}
