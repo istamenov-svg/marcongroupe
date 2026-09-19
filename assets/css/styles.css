@@ -846,6 +846,53 @@ strong {
   margin-top: 0.5rem;
 }
 
+.contact-form .button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.form-success {
+  padding: 2.5rem;
+  background: #f4f1ea;
+  border-left: 3px solid #0f1a2b;
+  margin-bottom: 2rem;
+}
+
+.form-success h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.5rem;
+  color: #0f1a2b;
+}
+
+.form-success p {
+  margin: 0;
+  font-size: 1.0625rem;
+  color: #4a5568;
+}
+
+.form-error {
+  padding: 1.25rem 1.5rem;
+  background: #fdf2f2;
+  border-left: 3px solid #c53030;
+  margin-top: 1.5rem;
+  border-radius: 2px;
+}
+
+.form-error p {
+  margin: 0;
+  font-size: 0.9375rem;
+  color: #742a2a;
+}
+
+.form-error a {
+  color: #742a2a;
+  font-weight: 500;
+}
+
 .direct-contact {
   margin-top: 3rem;
   padding-top: 2.5rem;

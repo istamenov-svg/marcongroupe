@@ -57,6 +57,14 @@
     "sameAs": []
   }
   </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-995363095"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-995363095');
+  </script>
 </head>
 <body>
 
@@ -90,15 +98,8 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://marcongrp.com/"}, {"@type": "ListItem", "position": 2, "name": "Contact"}]}</script>
   <section class="section">
     <div class="container-narrow">
-      <!--
-        FORMSPREE SETUP:
-        Replace the action URL below with the endpoint from your Formspree form.
-        It will look like: https://formspree.io/f/xxxxxxxx
-        The _next field controls the redirect after successful submission.
-      -->
-      <form class="contact-form" action="https://formspree.io/f/mdayqenl" method="POST">
-        <input type="hidden" name="_next" value="https://marcongrp.com/thank-you.html">
-        <input type="hidden" name="_subject" value="Marcon Groupe — New inbound">
+            <form class="contact-form" id="contact-form" action="https://formspree.io/f/mdayqenl" method="POST">
+                <input type="hidden" name="_subject" value="Marcon Groupe — New inbound">
 
         <div class="form-field">
           <label for="name">Name <span class="required">*</span></label>
@@ -140,6 +141,15 @@
         <button type="submit" class="button">Send <span class="button-arrow">→</span></button>
       </form>
 
+      <div class="form-success" id="form-success" role="status" aria-live="polite" hidden>
+        <h2>Thanks. Your message is in.</h2>
+        <p>We'll be in touch within one business day.</p>
+      </div>
+
+      <div class="form-error" id="form-error" role="alert" hidden>
+        <p>Something went wrong. Please try again, or email <a href="mailto:info@marcongrp.com">info@marcongrp.com</a> directly.</p>
+      </div>
+
       <div class="direct-contact">
         If you'd rather email directly: <a href="mailto:info@marcongrp.com">info@marcongrp.com</a>
       </div>
@@ -171,5 +181,66 @@
 </footer>
 
 <script src="/assets/js/site.js" defer></script>
+
+<script>
+(function() {
+  var form = document.getElementById('contact-form');
+  if (!form) return;
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    var button = form.querySelector('button[type="submit"]');
+    var successMsg = document.getElementById('form-success');
+    var errorMsg = document.getElementById('form-error');
+    var originalButtonHTML = button.innerHTML;
+
+    // Reset any previous error
+    errorMsg.hidden = true;
+
+    // Show loading state
+    button.disabled = true;
+    button.innerHTML = 'Sending...';
+
+    var data = new FormData(form);
+
+    fetch(form.action, {
+      method: 'POST',
+      body: data,
+      headers: {
+        'Accept': 'application/json'
+      }
+    })
+    .then(function(response) {
+      if (response.ok) {
+        // Fire Google Ads conversion
+        if (typeof gtag === 'function') {
+          gtag('event', 'conversion', {'send_to': 'AW-995363095/9FV-CP6I5v0cEJeS0NoD'});
+        }
+        // Hide form, show success message
+        form.hidden = true;
+        successMsg.hidden = false;
+        // Scroll success message into view
+        successMsg.scrollIntoView({behavior: 'smooth', block: 'center'});
+      } else {
+        response.json().then(function(data) {
+          errorMsg.hidden = false;
+          button.disabled = false;
+          button.innerHTML = originalButtonHTML;
+        }).catch(function() {
+          errorMsg.hidden = false;
+          button.disabled = false;
+          button.innerHTML = originalButtonHTML;
+        });
+      }
+    })
+    .catch(function(error) {
+      errorMsg.hidden = false;
+      button.disabled = false;
+      button.innerHTML = originalButtonHTML;
+    });
+  });
+})();
+</script>
 </body>
 </html>
